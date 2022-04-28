@@ -99,6 +99,7 @@ main h1{
 .corpoTerciario{
     display: flex;
     flex-direction: row;
+    margin-bottom: 116px;
 }
 .bloco1{
     display: flex;
@@ -144,6 +145,43 @@ main h1{
     text-decoration: none;
 }
 
+.footer{
+    height: 248px;
+    width: 100%;
+    background-color: #C2185B;
+    display: flex;
+    justify-content: space-around;
+}
+.footer #logoFooter{
+    background-image: url(/img/logoBranco.png);
+    height: 123px;
+    width: 233px;
+}
+.footer #logoFooter p{
+    padding-left: 15px;
+    padding-top: 100px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+.lista{
+    align-self: center;
+}
+.lista ul p{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.lista ul li{
+    list-style-type: none;
+    
+}
+.lista ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
 
 
 
