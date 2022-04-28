@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.header #logo {
+    padding:9px 40px 9px 19px;
+    height: 104px;
+    width: 209px;
+}
+.links{ 
+    margin-left: 50%;
+    display: flex;
+    justify-items: flex-end;
+}
