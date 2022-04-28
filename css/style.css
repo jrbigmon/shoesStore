@@ -121,7 +121,28 @@ main h1{
     width: 507px;
 }
 
-
+.bloco1 p{
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 53px;
+}
+.bloco1 #detalhes {
+    margin-top: 15px;
+    display: flex;
+    height: 99px;
+    width: 403px;
+    background-color:#C2185B;
+    margin-bottom: 55px;
+    justify-content: center;
+    align-items: center;
+}
+.bloco1 #detalhes a{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 53px;
+    text-decoration: none;
+}
 
 
 
