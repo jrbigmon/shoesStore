@@ -1,22 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
+    font-family: 'open sans', sans-serif;
 }
-
+body {
+    max-width: 1280px;
+}
 .header{
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 20px rgba(139, 139, 139, 0.65);
+    flex-wrap: wrap;
 }
-.header #logo {
+.header div #logo {
     padding:9px 40px 9px 19px;
     height: 104px;
     width: 209px;
 }
 .links{ 
-    margin-left: 50%;
-    display: flex;
-    justify-items: flex-end;
+    padding-right: 39px;
 }
+.links a{
+    text-decoration: none;
+    margin-left: 24px;
+    color: #777777;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+}
+.headerBanner #banner{
+    height: 235px;
+    width: 100%;
+}
+main h1{
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 82px;
+    text-align: center;
+    padding-top: 68px;
+    margin-bottom: 82px;
+}
+.corpoPrincipal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 207.6px;
+}
+.corpoPrincipal #imgMenor{
+    height: 600px;
+    width: 400px;
+}
+.corpoPrincipal #imgMaior{
+    height: 757.9425048828125px;
+    width: 600px;
+    padding-left: 54px;
+}
+.corpoSecundario{
+    height: 662px;
+    background-color: #C2185B;
+    margin-bottom: 163px;
+}
+.corpoSecundario h1{
+    color: #FFFFFF;
+}
+.allImg{
+    display: flex;
+    justify-content: center;
+}
+.allImg div{
+    height: 388px;
+    width: 260px;
+    background-color: white;
+    margin-left: 18px;
+}
+.allImg div img{
+    height: 300px;
+    width: 260px;
+    margin-bottom: 18px;
+}
+.allImg div p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    padding-left: 11px;
+    color: #000000;
+}
+.allImg div .valor{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    padding-left: 11px;
+}
+.corpoTerciario{
+    display: flex;
+    flex-direction: row;
+}
+.bloco1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 127px;
+    align-items: flex-end;
+}
+.bloco2{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: 105px;
+    margin-left: 28px;
+}
+.bloco1 img{
+    height: 663px;
+    width: 513px;
+}
+.bloco2 img{
+    height: 939px;
+    width: 507px;
+}
+
+
+
+
+
+
+@media (min-width: 576px) {  }
+ 
+@media (min-width: 768px) {  }
+
+@media (min-width: 992px) {  }
+
+@media (min-width: 1200px) {  }
+
+@media (min-width: 1400px) {  }
