@@ -6,7 +6,12 @@
     font-family: 'open sans', sans-serif;
 }
 body {
+    display: flex;
+    min-width: 1280px;
     max-width: 1280px;
+    justify-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 .header{
     width: 100%;
@@ -191,6 +196,11 @@ main h1{
 
 @media (min-width: 992px) {  }
 
-@media (min-width: 1200px) {  }
+@media (min-width: 1280px) {  
+    body{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 
 @media (min-width: 1400px) {  }
