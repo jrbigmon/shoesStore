@@ -158,7 +158,7 @@ main h1{
     justify-content: space-around;
 }
 .footer #logoFooter{
-    background-image: url(/img/logoBranco.png);
+    background-image: url(./img/logoBranco.png);
     height: 123px;
     width: 233px;
 }
