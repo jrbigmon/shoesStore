@@ -66,4 +66,11 @@ button{
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;  
+    transition: all 3000ms;
 }
+
+button:hover{
+    color: #C2185B;
+    background-color: #FFFFFF;
+}
+
